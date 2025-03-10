@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+/* Navbar Styling */
+.navbar {
+    background: rgb(238, 57, 7);
+    padding: 15px;
+    transition: background 0.3s ease-in-out;
+}
+
+.navbar.scrolled {
+    background: black !important; /* Solid background after scrolling */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Adds shadow for better visibility */
+}
+
+/* Navbar Brand */
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-brand img {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+/* Navbar Links */
+.navbar-nav .nav-link {
+    color: white;
+    font-size: 18px;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107; /* Highlight color on hover */
+}
+
+/* Sections */
+.section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+#Home {
+    background: linear-gradient(to bottom, #c96c2e, #ed492f);
+}
+
+#Features {
+    background: linear-gradient(to bottom, #e879d5, #9c338a);
+}
+
+#About {
+    background: linear-gradient(to top, #366fc9, #50d9de);
+}
+
+#Contact {
+    background: linear-gradient(to top, #32a155, #85d69e);
+}
+
+/* Buttons */
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    background: #ffc107;
+    border: none;
+    color: black;
+}
+
+button:hover {
+    background: #ff9800;
+    color: white;
+}
+
+/* Footer */
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    font-size: 16px;
+    color: white;
+}
